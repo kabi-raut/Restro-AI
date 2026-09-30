@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+.env.*
+!.env.example
+
+# Local API request data contains test credentials.
+create_customer.json
+login.json
+request_activation.json
+
+.vscode/
+*.sqlite3-journal
